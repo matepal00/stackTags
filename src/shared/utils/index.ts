@@ -1,0 +1,1 @@
+export { createUseModuleTranslation } from "./config";

@@ -1,0 +1,24 @@
+{
+  "failedDownload": {
+    "errorMessage": "An error occurred while obtaining data from the server.",
+    "error": "Error: {{error}}"
+  },
+  "filter": {
+    "order": {
+      "name": "Order",
+      "ascent": "Ascent",
+      "descent": "Descent"
+    },
+    "sort": {
+      "name": "Sort",
+      "byName": "By name",
+      "byPopularity": "By popularity"
+    }
+  },
+  "list": {
+    "item": {
+      "tag": "Tag: {{name}}",
+      "poleCount": "Pole count {{count}}"
+    }
+  }
+}
