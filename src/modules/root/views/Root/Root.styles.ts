@@ -13,7 +13,7 @@ export const NavContainer = styled("div")({
 });
 export const MainContainer = styled("div")({
   width: "50%",
-  height: "80%",
+  height: "60%",
   backgroundColor: "#6AD4DD",
   overflowY: "auto",
   display: "flex",

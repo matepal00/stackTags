@@ -70,7 +70,7 @@ const Root = () => {
   const handleChangeRowsPerPage: ChangeEventHandler<HTMLInputElement> = (e) => {
     const value = e.target.value ? parseInt(e.target.value, 10) : null;
     dispatch(setTagsPerPage(value));
-    dispatch(setCurrentPage(0));
+    dispatch(setCurrentPage(1));
   };
   return (
     <Wrapper>
@@ -154,7 +154,7 @@ const Root = () => {
         </Grid>
       </NavContainer>
       <Pagination
-        count={100}
+        count={Infinity}
         page={currentPage}
         onChange={handleChangePage}
         disabled={status == DataSteps.Succeeded ? false : true}

@@ -18,7 +18,7 @@
   "list": {
     "item": {
       "tag": "Tag: {{name}}",
-      "poleCount": "Pole count {{count}}"
+      "poleCount": "Pole count: {{count}}"
     }
   }
 }
