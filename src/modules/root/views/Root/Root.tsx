@@ -148,7 +148,6 @@ const Root = () => {
               }}
               variant="outlined"
               size="small"
-              disabled={status == DataSteps.Succeeded ? false : true}
             />
           </Grid>
         </Grid>
@@ -157,7 +156,6 @@ const Root = () => {
         count={Infinity}
         page={currentPage}
         onChange={handleChangePage}
-        disabled={status == DataSteps.Succeeded ? false : true}
         sx={{
           display: "flex",
           justifyContent: "center",
